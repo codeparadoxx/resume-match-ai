@@ -27,3 +27,9 @@ ResumeMatch AI is an NLP-based application that computes semantic similarity bet
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
+
+
+uvicorn api:app --reload
+
+
+streamlit run app.py
